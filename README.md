@@ -29,3 +29,13 @@ n2 = int(input('Digite outro número: '))
 s = n1 + n2
 print('A soma entre esses dois números é: ' , s)
 ```
+<hr>
+<h3>Desafio 003</h3>
+<p>Crie um script python que leia dois números e mostra a soma entre eles.</p>
+
+```
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+s = n1 + n2
+print('A soma entre esses dois números é: ' , s)
+```
