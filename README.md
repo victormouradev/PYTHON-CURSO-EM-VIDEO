@@ -31,7 +31,7 @@ print('A soma entre esses dois números é: ' , s)
 ```
 <hr>
 <h3>Desafio 003</h3>
-<p>Crie um script python que leia dois números e mostra a soma entre eles.</p>
+<p>Crie um programa que leia dois números e mostre a soma entre eles.</p>
 
 ```
 n1 = int(input('Digite um número: '))
