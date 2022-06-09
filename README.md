@@ -39,3 +39,18 @@ n2 = int(input('Digite outro número: '))
 s = n1 + n2
 print('A soma entre esses dois números é: ' , s)
 ```
+
+<h3>Desafio 004</h3>
+<p>Crie um programa que leia algo pelo teclado e mostre na tela o seu TIPO PRIMITIVO e todas as informações possíveis sobre ela (seus métodos).</p>
+
+```
+x = input('Digite algo: ')
+print('O tipo primitivo deste valor é:' , type(x))
+print('Esse valor é um número?' , x.isnumeric())
+print('Esse valor tem somente espaços?' , x.isspace())
+print('Esse valor é alfabético?' , x.isalpha())
+print('Esse valor é alfanumérico?' , x.isalnum())
+print('Esse valor está em MAIÚSCULAS?' , x.isupper())
+print('Esse valor está em minúscula?' , x.islower())
+print('Esse valor está capitalizado?' , x.istitle())
+```
