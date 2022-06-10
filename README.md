@@ -65,3 +65,10 @@ a = x - 1
 
 print('O número escolhido foi: {}\nSeu antecessor é: {}\n Seu sucessor é: {}' .format(x , a , s))
 ```
+
+<h3>Desafio 006</h3>
+<p>Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.</p>
+
+```
+
+```
