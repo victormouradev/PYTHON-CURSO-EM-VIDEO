@@ -54,3 +54,14 @@ print('Esse valor está em MAIÚSCULAS?' , x.isupper())
 print('Esse valor está em minúscula?' , x.islower())
 print('Esse valor está capitalizado?' , x.istitle())
 ```
+
+<h3>Desafio 005</h3>
+<p>Faça um programa que leia um número inteiro, e mostre na tela seu sucessor e antecessor.</p>
+
+```
+x = int(input('Digite um número inteiro: '))
+s = x + 1
+a = x - 1
+
+print('O número escolhido foi: {}\nSeu antecessor é: {}\n Seu sucessor é: {}' .format(x , a , s))
+```
