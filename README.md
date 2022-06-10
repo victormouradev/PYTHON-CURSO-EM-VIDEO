@@ -39,7 +39,7 @@ print('Olá, Mundo!")
 ```
 
 <h3>Desafio 002</h3>
-<p>Faça um.</p>
+<p>Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.</p>
 
 ```
 
