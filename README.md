@@ -42,7 +42,8 @@ print('Olá, Mundo!")
 <p>Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.</p>
 
 ```
-
+nome = input('Olá! Qual seu nome? ')
+print('Seja bem-vindo {}, é um prazer conhecê-lo!' .format(nome))
 ```
 
 <h3>Desafio 003</h3>
@@ -85,5 +86,9 @@ print('O número escolhido foi: {}\nSeu antecessor é: {}\n Seu sucessor é: {}'
 <p>Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.</p>
 
 ```
-
+x = int(input('Digite um número: '))
+d = x * 2
+t = x * 3
+r = x ** (1/2)
+print('O número escolhido foi: {}\nO dobro desse número é {}\nO triplo desse número é {}\nA raiz quadrada desse número é {}' .format(x , d , t, r))
 ```
