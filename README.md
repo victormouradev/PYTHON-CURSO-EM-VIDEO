@@ -30,6 +30,21 @@ s = n1 + n2
 print('A soma entre esses dois números é: ' , s)
 ```
 <hr>
+
+<h3>Desafio 001</h3>
+<p>Crie um programa que escreva "Olá, Mundo!" na tela.</p>
+
+```
+print('Olá, Mundo!")
+```
+
+<h3>Desafio 002</h3>
+<p>Faça um.</p>
+
+```
+
+```
+
 <h3>Desafio 003</h3>
 <p>Crie um programa que leia dois números e mostre a soma entre eles.</p>
 
