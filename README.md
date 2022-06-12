@@ -92,3 +92,19 @@ t = x * 3
 r = x ** (1/2)
 print('O número escolhido foi: {}\nO dobro desse número é {}\nO triplo desse número é {}\nA raiz quadrada desse número é {}' .format(x , d , t, r))
 ```
+
+<h3>Desafio 007</h3>
+<p>Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.</p>
+
+```
+n1 = float(input('Qual a nota do primeiro bimestre? '))
+n2 = float(input('Qual a nota do segundo bimestre? '))
+n3 = float(input('Qual a nota do terceiro bimestre? '))
+n4 = float(input('Qual a nota do quarto bimestre? '))
+
+s = n1 + n2 + n3 + n4
+m = s / 4
+
+print('A soma dessas notas é igual a: ' , s)
+print('A média das notas desse aluno é: ' , m)
+```
