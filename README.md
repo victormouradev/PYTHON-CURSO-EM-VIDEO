@@ -99,11 +99,9 @@ print('O número escolhido foi: {}\nO dobro desse número é {}\nO triplo desse 
 ```
 n1 = float(input('Qual a nota do primeiro bimestre? '))
 n2 = float(input('Qual a nota do segundo bimestre? '))
-n3 = float(input('Qual a nota do terceiro bimestre? '))
-n4 = float(input('Qual a nota do quarto bimestre? '))
 
-s = n1 + n2 + n3 + n4
-m = s / 4
+s = n1 + n2
+m = s / 2
 
 print('A soma dessas notas é igual a: ' , s)
 print('A média das notas desse aluno é: ' , m)
