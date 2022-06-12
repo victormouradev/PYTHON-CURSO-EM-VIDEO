@@ -106,3 +106,15 @@ m = s / 2
 print('A soma dessas notas é igual a: ' , s)
 print('A média das notas desse aluno é: ' , m)
 ```
+
+<h3>Desafio 008</h3>
+<p>Escreva um programa que leia um valor em metros e o exiba convertido em milímetros e centímetros.</p>
+
+```
+x = float(input('Digite um valor em metros: '))
+
+mm = x * 1000
+cm = x * 100
+
+print('O valor informado foi: {} metro(s).\nConvertido em milímetros: {}\nConvertido em centímetros: {}' .format(x , mm , cm))
+```
